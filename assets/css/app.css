@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    height: 990px;
+    width: 1440px;
+
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.top-box{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.logo-box{
+    background: #000000;
+    margin: 20px 0 0 40px;
+    width: 150px;
+}
+.color-box{
+    width: 420px;
+    height: 420px;
+    position: absolute;
+    background-color: #FFE6E4;
+    left: 60px;
+    overflow: hidden;
+}
+.big-box{
+    width: 650px;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    overflow: hidden;
+    z-index: 2;
+    object-fit: cover;
+}
+.back{
+    width: 500px;
+    position: absolute;
+    overflow: hidden;
+    opacity: inherit;
+}
+.wrap{
+    width: 800px;
+    margin: 40px 20px 20px 80px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+    color: black;
+}
+.nav-box{
+    width: 100px;
+    margin: 40px 20px 20px 20px;
+    font-family: Circular Std, Arial;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+}
+.bot-line{
+    border-bottom: solid 2px #000;
+}
+
+.wrap-1 {
+    width: 150px;
+    margin: 40px 20px 20px 80px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+}
+.icon-box{
+    width: 40px;
+    margin: 40px auto;
+    display: inline-block;
+    vertical-align: center;
+    text-align: right;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.icon-box:hover{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.hello{
+    margin: 40px 0 0 40px;
+    font-family: Google Sans, "Arial Black";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.logo-wow{
+    width: 499px;
+    height: 203px;
+    margin: 0 0 0 40px;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 172px;
+    font-weight: 800;
+    line-height: 203px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #CB3322;
+    position: relative;
+}
+.logo-wow-2{
+    width: 499px;
+    height: 203px;
+    margin: 0 0 0 40px;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 172px;
+    font-weight: 800;
+    line-height: 203px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #CB3322;
+    position: absolute;
+    opacity: 0.07;
+    rotate: 270deg;
+    left: 850px;
+    bottom: 40%;
+}
+
+.text-body{
+    width: 498px;
+    height: 200px;
+    margin: 0 0 0 40px;
+    font-family: Google Sans, "Arial Black";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.btm{
+    width: 182px;
+    height: 60px;
+    margin: 0 0 0 40px;
+    border: 1px solid #C4C4C4;
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: white;
+}
+.btm:hover{
+    background: #CB3322;
+    color: white;
+}
+.box{
+    width: 226px;
+    height: 163px;
+    background-color: #e5e5e5;
+    margin: 15px 0 0 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+.box-img{
+    object-fit: cover;
+    width: 206px;
+    height: 143px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+.w-box{
+    margin: 30px 0 0 40px;
+    font-family: Circuar Std, Arial;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.v-box{
+    display: block;
+    margin: 10px 0 0 40px;
+    font-family: Sofia Pro, Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CB3322;
+    text-decoration: none;
+}
+.v-box:hover{
+    text-decoration: underline;
+    color: black;
+}
+.layout{
+    width: 381px;
+    height: 22px;
+    rotate: 270deg;
+    float: right;
+    z-index: 5;
+}
+.wrap-btm{
+    width: 800px;
+    margin: 40px 20px 20px 80px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+    color: black;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("fonts/CircularStdBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Google Sans";
+    src: url("fonts/GoogleSansMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("fonts/SofiaPro-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
